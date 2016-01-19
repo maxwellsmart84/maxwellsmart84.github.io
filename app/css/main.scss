@@ -1,0 +1,144 @@
+$font-header: "Raleway", sans-serif;
+$font-subheader: "Fugaz One", cursive;
+
+
+body {
+  width:100%;
+}
+
+ul{
+  display: inline-block;
+}
+
+
+.headerBar {
+  background-color: rgba(#000000, 0.6);
+  display: flex;
+  text-align: center;
+  height:0;
+  i {
+    color:rgba(#ffffff, 0);
+    padding:10px;
+  }
+}
+
+
+.hide {
+  display:none;
+}
+
+#headerInit {
+  text-align: center;
+  display: block;
+  height:200px;
+  .initials {
+    font-size: 13em;
+    font-family: $font-header;
+    margin-top: 0;
+    position:relative;
+  }
+}
+
+#allCarousels{
+  position: relative;
+  bottom:20vh;
+}
+.section {
+  width:0;
+  margin-left: 15%;
+  display:block;
+  background-color: rgba(#000000, 0.9);
+  padding:1% 3% 3% 3%;
+  height:300px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.carousel-indicators {
+  bottom:10px;
+}
+
+.slideTitle {
+  text-align: center;
+  font-size: 7rem;
+  font-family: $font-header;
+  color:white;
+  padding-top: 40px;
+}
+
+//////EXPERIENCE CAROUSEL//////////
+
+#experience {
+  padding: 10px;
+  }
+  h2 {
+    color:white;
+    font-family: $font-subheader;
+  }
+  .sectionHead {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color:white;
+    border-bottom: 2px solid white;
+    outline: 1px solid white;
+    outline-offset: 5px;
+
+}
+
+.expCols {
+  color:white;
+  ul {
+    font-size: 1.5rem;
+  }
+}
+
+.jobTitle {
+  font-size: 3rem;
+  font-family: $font-header;
+  border-right: 1px solid white;
+  padding-right: 8px;
+  padding-bottom: 100px;
+}
+//////PROJECTS CAROUSEL//////////
+#work {
+  padding: 10px;
+  .item {
+
+  }
+  h2 {
+    color:white;
+    font-family: $font-subheader;
+  }
+
+}
+//////LIFE CAROUSEL///////////
+#interests {
+  padding: 10px;
+  .item {
+
+  }
+  h2 {
+    color:white;
+    font-family: $font-subheader;
+  }
+}
+.name {
+    width:auto;
+    margin-left: 15%;
+    margin-bottom: 5%;
+    z-index: -1;
+    position:absolute;
+    font-size: 8em;
+    color:rgba(#bab9b9, 0);
+    letter-spacing: 30px;
+}
+
+#max {
+  top:240px;
+}
+#lyle {
+  top:460px;
+}
+#krause {
+  top:700px;
+}

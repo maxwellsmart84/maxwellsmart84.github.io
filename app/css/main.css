@@ -1,0 +1,109 @@
+body {
+  width: 100%; }
+
+ul {
+  display: inline-block; }
+
+.headerBar {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  text-align: center;
+  height: 0; }
+  .headerBar i {
+    color: rgba(255, 255, 255, 0);
+    padding: 10px; }
+
+.hide {
+  display: none; }
+
+#headerInit {
+  text-align: center;
+  display: block;
+  height: 200px; }
+  #headerInit .initials {
+    font-size: 13em;
+    font-family: "Raleway", sans-serif;
+    margin-top: 0;
+    position: relative; }
+
+#allCarousels {
+  position: relative;
+  bottom: 20vh; }
+
+.section {
+  width: 0;
+  margin-left: 15%;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 1% 3% 3% 3%;
+  height: 300px;
+  border-radius: 20px;
+  margin-bottom: 10px; }
+
+.carousel-indicators {
+  bottom: 10px; }
+
+.slideTitle {
+  text-align: center;
+  font-size: 7rem;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  padding-top: 40px; }
+
+#experience {
+  padding: 10px; }
+
+h2 {
+  color: white;
+  font-family: "Fugaz One", cursive; }
+
+.sectionHead {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: white;
+  border-bottom: 2px solid white;
+  outline: 1px solid white;
+  outline-offset: 5px; }
+
+.expCols {
+  color: white; }
+  .expCols ul {
+    font-size: 1.5rem; }
+
+.jobTitle {
+  font-size: 3rem;
+  font-family: "Raleway", sans-serif;
+  border-right: 1px solid white;
+  padding-right: 8px;
+  padding-bottom: 100px; }
+
+#work {
+  padding: 10px; }
+  #work h2 {
+    color: white;
+    font-family: "Fugaz One", cursive; }
+
+#interests {
+  padding: 10px; }
+  #interests h2 {
+    color: white;
+    font-family: "Fugaz One", cursive; }
+
+.name {
+  width: auto;
+  margin-left: 15%;
+  margin-bottom: 5%;
+  z-index: -1;
+  position: absolute;
+  font-size: 8em;
+  color: rgba(186, 185, 185, 0);
+  letter-spacing: 30px; }
+
+#max {
+  top: 240px; }
+
+#lyle {
+  top: 460px; }
+
+#krause {
+  top: 700px; }
